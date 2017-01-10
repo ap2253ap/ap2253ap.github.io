@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Albert A. Palacios",
+    "file": "http://s13.postimg.org/q3emetdpj/llilas_benson.jpg",
+    "link": "http://llilasbenson.utexas.edu/"
+  },
+  "text": {
+    "title": "Publishing in 16th-Century Mexico",
+    "more": "",
+    "intro": "This visualization traces the publishing networks in New Spain from the establishment of the printing press in 1539 until a little after the viceroyalty’s 1624 political tumult (1630).  The data was extracted from the approbations, licenses, dedications, prologues, and colophons of over 250 imprints."
+  },
+  "legend": {
+    "edgeLabel": "Relationships",
+    "colorLabel": "Publishing Role",
+    "nodeLabel": "Individuals"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "imageAttribute": "Image",
+    "groupByEdgeDirection": true
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
